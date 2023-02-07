@@ -8,33 +8,83 @@
     <title>Cameron Cook Portfolio</title>
 </head>
 <body>
-    <div class="header">
-        <h1>Cameron Cook</h1>
-        <nav>
-            <a href="#about-me">About Me</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact-me">Contact Me</a>
-        </nav>
-    </div>
-    <div class="hero"></div>
-    <div class="content">
-        <div id="about-me" class="about-me">
-            <!--don't forget to revist this and change the photo-->
-            <img src="https://artprojectsforkids.org/wp-content/uploads/2020/07/Big-Eyes-Post.jpg" alt="a photo of myself" class="float-left">
-            <h2>About Me</h2>
-            <p>My name is Cameron Cook. I'm 27 years old and this is my first expereince with coding.</p>
+    <header>
+        <div class="container">
+            <div id="logo">
+                <h1><span class="highlight">Cameron Cook</span></h1>
+            </div>
+            <nav>
+                <ul>
+                    <li class="current"><a href="#about-me">About Me</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
         </div>
-        <div id="projects" class="projects">
-            <!--same here-->
-            <img src="" alt="">
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe laborum perferendis accusamus officiis itaque numquam non veritatis atque distinctio sint. Quis dolores quae provident maiores enim rerum? Cupiditate, quod alias.</p>
+    </header>
+    <section id="about-me">
+        <div class="container">
+            <h1>About Me</h1>
+            <img src="https://via.placeholder.com/250">
+            <!-- changed the photosize from 150 to 250 -->
+            <p>My name is Cameron Cook. I'm 27 years old. This is my first experience with coding.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus adipisci eaque placeat at quo quos quasi, nostrum rem, laboriosam suscipit ipsum fuga veniam odit, quod hic doloremque. Harum, commodi alias?
+            </p>
         </div>
-    </div>
+    </section>
 
-    </div>
-    <div class="footer">
-        <h2>Cameron Cook©</h2>
-    </div>
-    
+    <section id="projects">
+        <div class="container">
+            <h1>Projects</h1>
+            <div class="box">
+                <!-- GIVE THIS DIV ITS OWN CLASS TO SPAN THE WIDTH OF THE PAGE -->
+                <a href="" target="_blank"><img src="https://via.placeholder.com/150"></a>
+                <h3>Project 1</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, inventore voluptate.</p>
+            </div>
+            <div class="box">
+                <a href="" target="_blank"><img src="https://via.placeholder.com/150"></a>
+                <h3>Project 2</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, inventore voluptate.</p>
+            </div>
+            <div class="box">
+                <a href="" target="_blank"><img src="https://via.placeholder.com/150"></a>
+                <h3>Project 3</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, inventore voluptate.</p>
+            </div>
+            <div class="box">
+                <a href="" target="_blank"><img src="https://via.placeholder.com/150"></a>
+                <h3>Project 4</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, inventore voluptate.</p>
+            </div>
+            <div class="box">
+                <a href="" target="_blank"><img src="https://via.placeholder.com/150"></a>
+                <h3>Project 5</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, inventore voluptate.</p>
+            </div>
+            <div class="box">
+                <a href="" target="_blank"><img src="https://via.placeholder.com/150"></a>
+                <h3>Project 6</h3>
+                <!-- added <a> to each of the images for my projects -->
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, inventore voluptate.</p>
+            </div>
+            <!--ADD IN PLACEHOLDERS FOR PROJECTS-->
+        </container>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h1>Contact Me</h1>
+            <ul>
+                <li><a href="tel:9802552034">980-255-2034</a></li>
+                <li><a href="mailto: cameron.cook.310@hotmail.com">Email</a></li>
+                <li><a href="https://github.com/camdyco" target="_blank">My GitHub</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <p>Cameron Cook © 2023</p>
+    </footer>
 </body>
 </html>

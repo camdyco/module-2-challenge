@@ -1,33 +1,110 @@
-* {
-    font-family: sans-serif;
-}
-.header {
-    padding: 20px;
-    font-family: 'Lucida Sans'
-}
-h1 {
-    font-size: 40px;
-}
-nav {
-    font-size: 30px;
-    float: right;
-    display: inline-block;
-}
-p {
-    font-size: 30px;
-}
 body {
-    min-height: 100vh;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+    /*added the following to force the footer to the bottom*/
     display: flex;
     flex-direction: column;
-    background-color: gray;
+    min-height: 100vh;
 }
-.float-left {
+/* All */
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+/* Header */
+header {
+    background: #35424A ;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #e8491d 3px solid;
+}
+header a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+header li {
     float: left;
-    margin: 25px;
-    max-width: 400px;
+    display: inline;
+    padding: 0 20 0 20px;
 }
-.footer {
-    margin-top: auto;
+header #logo {
+    float: left;
+}
+header #logo h1 {
+    margin: 0;
+}
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+header .highlight, header .current a {
+    color: #e8491d;
+    font-weight: bold;
+}
+header a:hover {
+    color: #cccccc;
+    font-weight: bold;
+}
+/* About Me */
+#about-me {
+    min-height: 400px;
+    background: #88cdce;
     text-align: center;
 }
+#about-me h1 {
+    margin-top: 100px;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+#about-me p {
+    font-size: 25px;
+}
+
+/* Project boxes */
+#projects h1 {
+    margin-top: 15px;
+    font-size: 50px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+#boxes {
+    margin-top: 20px;
+}
+#projects .box {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+}
+#contact {
+    text-align: center;
+    background: #88cdce;
+    min-height: 400px;
+}
+#contact h1 {
+    font-size: 50px;
+}
+#contact ul {
+    font-size: 30px;
+}
+
+/* footer */
+footer {
+    padding: 20px;
+    background: #35424a;
+    color: white;
+    text-align: center;
+    margin-top: auto;
+} 
